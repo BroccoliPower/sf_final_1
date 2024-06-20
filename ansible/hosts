@@ -1,0 +1,11 @@
+[masters]
+master ansible_ssh_host=158.160.35.222 ansible_user=root ansible_ssh_private_key=./sf
+#ansible_user=root ansible_ssh_private_key=./sf
+
+[workers]
+worker1 ansible_ssh_host=158.160.34.201 ansible_user=root ansible_ssh_private_key=./sf
+#ansible_user=root ansible_ssh_private_key=./sf
+
+[srv]
+worker2 ansible_ssh_host=158.160.96.27 ansible_user=root ansible_ssh_private_key=./sf
+#ansible_user=root 
